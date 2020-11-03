@@ -1,0 +1,13 @@
+name: Scoping_Review
+title: Scoping_Review
+username:
+account: michael-mpelias
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3091252
+bundleId: 3815209
+url: https://michael-mpelias.shinyapps.io/Scoping_Review/
+when: 1604405325.35368
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: csv-individual-set_till_2020.csv|csv-individual-set_till_2020.xlsx|Michael.csv|Michael.xlsx|Michael2.xlsx|test.xlsx
