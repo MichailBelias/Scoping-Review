@@ -12,8 +12,10 @@ library(xlsx)
 #df = df[which(is.na(df$`Include (Yes/No/Unclear)`)),]
 #write_xlsx(df, "Michael.xlsx")
 
-df <- read.xlsx2("Mixalis.xlsx", sheetIndex = 1)
-df=  df[df$swipe == "",]
+df <- read.xlsx("Mixalis.xlsx", sheetIndex = 1)
+df=  df[is.na(df$Michael),]
+df$Count.number =  as.character(df$Count.number) ; 
+df =  df[order(df$Count.number,decreasing = T),]
 
 
 #  df <- read.csv("csv-individual-set_till_2020.csv")
